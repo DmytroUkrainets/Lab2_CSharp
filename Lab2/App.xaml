@@ -5,7 +5,6 @@
              StartupUri="MainWindow.xaml">
     <Application.Resources>
         <ResourceDictionary>
-            <converters:EmptyToVisibilityConverter x:Key="EmptyToVisibilityConverter"/>
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="Converters/InverseBoolConverter.xaml"/>
             </ResourceDictionary.MergedDictionaries>
